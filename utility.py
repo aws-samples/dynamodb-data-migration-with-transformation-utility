@@ -12,8 +12,8 @@ print(st)
 
 region = "ap-south-1"
 target_table = "parts"
-files_path = "/var/snap/amazon-ssm-agent/7993/data"
-output_dir = "/var/snap/amazon-ssm-agent/7993/output"
+files_path = "<PATH-TO-UNZIPPED-DATA-FILES>"
+output_dir = "<OUTPUT-FOLDER-FOR_RESUME>"
 back_off = 2  # seconds - back off time for retry
 
 client = boto3.client('dynamodb', region_name=region)
