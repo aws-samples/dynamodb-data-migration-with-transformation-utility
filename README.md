@@ -23,7 +23,7 @@ dependent python library installation -- requirements.txt
 
 ### Clean Up
 
-Delete the CloudFormation stack on AWS console. The default stack name is **PrivateWebApp**. Also, there are two Amazon S3 buckets (for static website and access log) retained with names beginning with **privatewebapp**. You can delete them manually.
+Delete the EC2 instance once the record count matches post migration
 
 ## Limitations
 
