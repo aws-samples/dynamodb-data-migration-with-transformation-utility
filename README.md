@@ -27,7 +27,7 @@ Delete the CloudFormation stack on AWS console. The default stack name is **Priv
 
 ## Limitations
 
-- There is a 10 MB limit for static files served by API Gateway. Refer to [API Gateway quotas for configuring and running a REST API](https://docs.aws.amazon.com/apigateway/latest/developerguide/limits.html#api-gateway-execution-service-limits-table) for the maximum payload size of API Gateway.
+- This utility can resume at a file level and not at a record level, make sure in execptions you have the capability to handle this
 
 ## Security
 
