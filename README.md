@@ -1,7 +1,7 @@
 # dynamodb data migration with transformation utility
 This utility helps in migrating dynamodb table data from one table to another with transformations. This utility script needs to be executed in an EC2 instance (preferably memory intensive)
 
-## Components
+## functions
 1. Ability to migrate data to a new table (same region, cross region)
 2. Add transformation during migration
 3. Resume capability at file level
@@ -16,7 +16,6 @@ This utility helps in migrating dynamodb table data from one table to another wi
 1. copy all the Dynamodb Json files to Ec2 local volume
 2. unzip *.gz in a single directory
 3. Execute the script , Usage: python3 utility.py
-
 
 
 ### Clean Up
