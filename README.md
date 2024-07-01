@@ -15,7 +15,8 @@ This utility helps in migrating dynamodb table data from one table to another wi
 ### Steps
 1. copy all the Dynamodb Json files to Ec2 local volume
 2. unzip *.gz in a single directory
-3. Execute the script , Usage: python3 utility.py
+3. edit utility.py file and change the parameters, eg: Dynamodb table name, no of threads
+4. Execute the script , Usage: python3 utility.py
 
 
 ### Clean Up
